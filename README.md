@@ -25,8 +25,11 @@ You'll need to create (at least) the following resources:
 - One or more subnets (depending on your design).
 - One or more security groups (depending on your design).
 - One ELB.
-- One or more EC2 (depending on your design)
-- Add an EC2 Bootstrap Script for Apache, where you will install apache and echo "Hello Auxis" in index.html file
+- One or more Linux EC2 (depending on your design)
+- Add an EC2 Bootstrap Script to do the following:
+  - Install apache
+  - echo "Hello Auxis" in the default index page.
+  - Create an user
 
 The following diagram can give you a better idea of what you should code in terraform:
 
@@ -64,8 +67,9 @@ The following diagram can give you a better idea of what you should code in terr
 
 ### Instructions
 
-You must provide instructions to reproduce your infrastructure, it can be a regular README file. 
-And fell free to use any Terraform community module if you want to.
+You must provide instructions to reproduce your infrastructure, it can be a regular README file.
+Project should be deployable in any AWS account without errors.
+And fell free to use any Terraform community modules, templates, etc when appropriate.
 
 ### Code
 
