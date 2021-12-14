@@ -1,4 +1,5 @@
 # AWS DevOps engineer evaluation
+As part of the interview process, we ask candidates complete an AWS/Terraform Challenge before meeting. This help us to formulate technical questions during the interview.
 
 ## Objective
 
@@ -64,6 +65,8 @@ The following diagram can give you a better idea of what you should code in terr
 ### Instructions
 
 You must provide instructions to reproduce your infrastructure, it can be a regular README file. 
+And fell free to use any Terraform community module if you want to.
+
 ### Code
 
 You have to ship your code to us, please create a pull request against the upstream repo.
